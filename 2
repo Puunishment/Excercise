@@ -1,0 +1,8 @@
+number = int(input("Pls enter a positive number"))
+def multiplication_table(number):
+    if number <= 0:
+        print("Pls enter a positive number")
+        return
+    for i in range(1,11):
+        print(f"{number} * {i} = {number * i}")
+multiplication_table(number)
